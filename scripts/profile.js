@@ -32,7 +32,7 @@ function loadImages(){
 }
 
 function orient_tabs(){
-//	loadImages();
+	loadImages();
 
 	positions = new Array();
 

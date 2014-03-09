@@ -22,7 +22,18 @@ function putAtCenter(x){
 	x.style.marginLeft = "-" + width + "px";
 }
 
+function loadImages(){
+	document.getElementById("tab1").src = "img/tabs/facebook.png";
+	document.getElementById("tab1").src = "img/tabs/facebook.png";
+	document.getElementById("tab1").src = "img/tabs/facebook.png";
+	document.getElementById("tab1").src = "img/tabs/facebook.png";
+	document.getElementById("tab1").src = "img/tabs/facebook.png";
+	document.getElementById("tab1").src = "img/tabs/facebook.png";
+}
+
 function orient_tabs(){
+//	loadImages();
+
 	positions = new Array();
 
 	var radius = 150 + 50 + 32;
@@ -32,7 +43,7 @@ function orient_tabs(){
 		normalit(tab);
 		putAtCenter(tab);
 		
-		tab.style.visibility = "visible";
+		tab.style.display = "inline";
 
 		var angleDeg = 90 - 30 - 60 * (i - 1);
 		var angleRad = Math.PI * angleDeg / 180;

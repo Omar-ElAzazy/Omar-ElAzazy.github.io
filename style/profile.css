@@ -1,5 +1,45 @@
 body{
-	background-color: #E9F2F9;
+	background-color: rgb(154, 180, 203);
+}
+
+div{
+	visibility: hidden;
+	background-color: rgba(154, 180, 203, 0.0);
+	position: absolute;
+	z-index = -1;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color: #091D42;
+}
+
+.fadeinclass{
+	-webkit-animation: fadein 3s;
+}
+
+@-webkit-keyframes fadein{
+    from{ 
+		opacity: 0;
+	}
+    to{ 
+		opacity: 1; 
+	}
+}
+
+#aboutme{
+	left: 3%;
+	width: 400px;
+	top: 190px;
+}
+
+#experience{
+	left: 40%;
+	width: 600px;
+	top: 300px;
+}
+
+#role{
+	left: 50%;
+	width: 300px;
+	top: 100px;
 }
 
 #centerImage{
@@ -17,7 +57,7 @@ body{
 
 .tab{
 	visibility:hidden;
-
+	position: relative;
 	z-index=1;
 }
 

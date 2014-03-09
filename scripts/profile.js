@@ -97,6 +97,7 @@ function showInfo(x){
 		positions[i - 1] = [positions[i - 1][0] + totalWidth / 2 + dx, positions[i - 1][1] + totalHeight / 2 + dy];
 
 		tab.style.webkitTransform = " translate(" + dx + "px," + dy + "px)";
+		tab.style.position = "fixed";
 	}
 
 	var centerImage = document.getElementById("centerImage");
@@ -108,5 +109,15 @@ function showInfo(x){
 	positions[6] = [totalWidth, totalHeight];
 
 	centerImage.style.webkitTransform = "scale(0.5, 0.5) translate(" + centerdx + "px," + centerdy + "px)";
+	centerImage.style.position = "fixed";
+
+	document.getElementById("aboutme").style.visibility = "visible";
+	document.getElementById("role").style.visibility = "visible";
+	document.getElementById("experience").style.visibility = "visible";
+
+	document.getElementById("aboutme").className += "fadeinclass";
+	document.getElementById("role").className += "fadeinclass";
+	document.getElementById("experience").className += "fadeinclass";
+
 //	window.setTimeout(adjustAll(positions), 1500);
 }

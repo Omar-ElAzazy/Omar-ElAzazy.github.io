@@ -1,14 +1,14 @@
 body{
-	background-color: rgb(154, 180, 203);
+	background-color: rgb(162, 54, 7);
 }
 
 div{
 	visibility: hidden;
-	background-color: rgba(154, 180, 203, 0.0);
+	background-color: rgba(162, 54, 7, 0.0);
 	position: absolute;
 	z-index = -1;
-	font-family:"Comic Sans MS", cursive, sans-serif;
-	color: #091D42;
+	font-family: Quicksand;
+	color: #FFFFFF;
 }
 
 .fadeinclass{

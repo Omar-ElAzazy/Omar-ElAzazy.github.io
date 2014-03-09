@@ -22,18 +22,7 @@ function putAtCenter(x){
 	x.style.marginLeft = "-" + width + "px";
 }
 
-function loadImages(){
-	document.getElementById("tab1").src = "img/tabs/facebook.png";
-	document.getElementById("tab2").src = "img/tabs/topcoder.png";
-	document.getElementById("tab3").src = "img/tabs/linkedin.png";
-	document.getElementById("tab4").src = "img/tabs/github.png";
-	document.getElementById("tab5").src = "img/tabs/gmail.png";
-	document.getElementById("tab6").src = "img/tabs/aboutme.png";
-}
-
 function orient_tabs(){
-	loadImages();
-
 	positions = new Array();
 
 	var radius = 150 + 50 + 32;

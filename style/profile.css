@@ -56,9 +56,11 @@ div{
 }
 
 .tab{
-	display:none;
+	visibility:hidden;
 	position: relative;
 	z-index=1;
+	left: -10000px;
+	top: -10000px;
 }
 
 .transition{

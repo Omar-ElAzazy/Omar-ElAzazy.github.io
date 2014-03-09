@@ -1,0 +1,30 @@
+body{
+	background-color: #E9F2F9;
+}
+
+#centerImage{
+	width:		300px;
+	height:		300px;
+
+	position:	absolute;
+	left:		50%;
+	top:		50%;
+	margin-top:	-150px;
+	margin-left:-150px;
+
+	z-index=0;
+}
+
+.tab{
+	visibility:hidden;
+
+	z-index=1;
+}
+
+.transition{
+	-webkit-transition:	width 0.5s, height 0.5s, -webkit-transform 1.5s ease-in-out;
+}
+
+.notransition{ 
+  -webkit-transition: none !important; 
+} 

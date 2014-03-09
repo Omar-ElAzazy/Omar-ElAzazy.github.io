@@ -56,7 +56,7 @@ div{
 }
 
 .tab{
-	display:none;
+	visibility:hidden;
 	position: relative;
 	z-index=1;
 }

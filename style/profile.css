@@ -1,10 +1,10 @@
 body{
-	background-color: rgb(162, 54, 7);
+	background-color: #000000;
 }
 
 div{
 	visibility: hidden;
-	background-color: rgba(162, 54, 7, 0.0);
+	background-color: rgba(0, 0, 0, 0.0);
 	position: absolute;
 	z-index = -1;
 	font-family: Quicksand;
